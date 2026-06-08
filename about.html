@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客 | 关于我</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="HTML.html" class="logo">RUISPACE</a>
+            <button class="menu-toggle" aria-label="切换导航菜单">☰</button>
+            <nav class="site-nav" id="mainNav">
+                <a href="HTML.html" data-nav="home">首页</a>
+                <a href="about.html" data-nav="about">关于我</a>
+                <a href="posts.html" data-nav="posts">文章</a>
+                <a href="gallery.html" data-nav="gallery">相册</a>
+                <a href="contact.html" data-nav="contact">联系</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section reveal">
+        <h1>关于我</h1>
+        <div class="grid cards-2">
+            <article class="card">
+                <h2>个人简介</h2>
+                <p>你好，我是一名热爱前端开发与内容创作的学习者。希望通过博客记录思考过程，也分享实际经验。</p>
+                <p>我关注网页设计、交互体验和技术写作，喜欢把复杂内容讲得清晰、实用。</p>
+            </article>
+            <article class="card">
+                <h2>技能方向</h2>
+                <ul class="list">
+                    <li>HTML/CSS 页面结构与视觉表达</li>
+                    <li>JavaScript 页面交互与动态效果</li>
+                    <li>响应式布局与移动端适配</li>
+                    <li>持续学习与项目复盘</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> 我的博客 · 用热爱连接世界</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

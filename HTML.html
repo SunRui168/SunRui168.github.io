@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客 | 首页</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="HTML.html" class="logo">RUISPACE</a>
+            <button class="menu-toggle" aria-label="切换导航菜单">☰</button>
+            <nav class="site-nav" id="mainNav">
+                <a href="HTML.html" data-nav="home">首页</a>
+                <a href="about.html" data-nav="about">关于我</a>
+                <a href="posts.html" data-nav="posts">文章</a>
+                <a href="gallery.html" data-nav="gallery">相册</a>
+                <a href="contact.html" data-nav="contact">联系</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container reveal">
+            <p class="eyebrow">PERSONAL BLOG</p>
+            <h1>用文字记录成长，
+                <span>用代码构建表达。</span>
+            </h1>
+            <p class="lead">这是我的个人博客主页，我会在这里分享学习、生活与创作灵感。</p>
+            <div class="hero-actions">
+                <a class="btn" href="posts.html">查看最新文章</a>
+                <a class="btn btn-ghost" href="about.html">认识一下我</a>
+            </div>
+        </section>
+
+        <section class="container section reveal">
+            <h2>最近动态</h2>
+            <div class="grid cards-3">
+                <article class="card">
+                    <h3>博客正式上线</h3>
+                    <p>完成了博客结构搭建，支持 5 个页面导航与移动端适配。</p>
+                    <span class="tag">建站</span>
+                </article>
+                <article class="card">
+                    <h3>本周学习计划</h3>
+                    <p>深入学习 JavaScript 交互与动画，优化前端体验细节。</p>
+                    <span class="tag">学习</span>
+                </article>
+                <article class="card">
+                    <h3>摄影随记更新</h3>
+                    <p>上传了城市夜景组图，在相册页可以看到我的最新作品。</p>
+                    <span class="tag">生活</span>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> 我的博客 · 用热爱连接世界</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客 | 相册</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="gallery">
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="HTML.html" class="logo">RUISPACE</a>
+            <button class="menu-toggle" aria-label="切换导航菜单">☰</button>
+            <nav class="site-nav" id="mainNav">
+                <a href="HTML.html" data-nav="home">首页</a>
+                <a href="about.html" data-nav="about">关于我</a>
+                <a href="posts.html" data-nav="posts">文章</a>
+                <a href="gallery.html" data-nav="gallery">相册</a>
+                <a href="contact.html" data-nav="contact">联系</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section reveal">
+        <h1>我的相册</h1>
+        <div class="gallery-grid">
+            <figure class="photo-card"><img src="images/photo-1.jpg" alt="摄影作品 1"><figcaption>城市光影</figcaption></figure>
+            <figure class="photo-card"><img src="images/photo-2.jpg" alt="摄影作品 2"><figcaption>清晨街角</figcaption></figure>
+            <figure class="photo-card"><img src="images/photo-3.jpg" alt="摄影作品 3"><figcaption>旅行时刻</figcaption></figure>
+            <figure class="photo-card"><img src="images/photo-4.jpg" alt="摄影作品 4"><figcaption>海边日落</figcaption></figure>
+            <figure class="photo-card"><img src="images/photo-5.jpg" alt="摄影作品 5"><figcaption>静谧森林</figcaption></figure>
+            <figure class="photo-card"><img src="images/photo-6.jpg" alt="摄影作品 6"><figcaption>夜色霓虹</figcaption></figure>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> 我的博客 · 用热爱连接世界</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
